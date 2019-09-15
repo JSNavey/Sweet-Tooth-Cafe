@@ -21,6 +21,21 @@ html{
   --main-font-family: 'Lobster Two', cursive;
 }
 
+section{
+  padding: 6rem 0;
+}
+
+p{
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--main-font-dark-gray);
+}
+
+a{
+  text-decoration: none;
+  color: var(--main-white);
+}
 
 /* --- Reusable Classes --- */
 /* --- Header --- */
