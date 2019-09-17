@@ -89,6 +89,8 @@ a{
 
 .between-sec-color{
   color: var(--main-white);
+}
+
 /* --- Header --- */
 header{
   width: 100%;
@@ -97,5 +99,8 @@ header{
   background-size: cover;
   display: flex;
   text-align: center;
+  position: relative;
 }
+
+/**/
 /* --- Section --- */
