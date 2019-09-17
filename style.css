@@ -151,4 +151,9 @@ header{
 .active .bar::after{
   transform: rotate(-45deg);
 }
+
+.active .bar::before,
+.active .bar::after{
+  top: 0;
+}
 /* --- Section --- */
