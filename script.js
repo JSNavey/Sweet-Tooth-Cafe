@@ -4,4 +4,7 @@ $('.menu').on('click', function(){
 });
 
 // Remove menu-open class
-$('.')
+$('.nav a').on('click', function(){
+  $('.menu').removeClass('active');
+  $('.overlay').removeClass('menu-open');
+});
