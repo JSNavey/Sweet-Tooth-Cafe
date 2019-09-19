@@ -172,4 +172,17 @@ header{
   font-size: 1.5rem;
   border-bottom: 1px solid var(--main-white);
 }
+
+.overlay{
+  background-color: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 650ms;
+  transform: scale(0);
+  opacity: 0;
+}
 /* --- Section --- */
