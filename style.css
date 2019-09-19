@@ -185,4 +185,10 @@ header{
   transform: scale(0);
   opacity: 0;
 }
+
+/* Menu opens covering the header */
+.overlay.menu-open{
+  transform: scale(1);
+  opacity: 1;
+}
 /* --- Section --- */
