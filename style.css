@@ -95,8 +95,8 @@ a{
 header{
   width: 100%;
   height: 100vh;
-  background:linear-gradient(rgba(0,0,0,0.5), transparent), url("images/sweet-tooth-cafe.jpg") no-repeat;
-  background-size: cover;
+  background:url("images/macaron1.jpg") center no-repeat;
+  background-size: 100% 100vh;
   display: flex;
   text-align: center;
   position: relative;
@@ -190,5 +190,28 @@ header{
 .overlay.menu-open{
   transform: scale(1);
   opacity: 1;
+}
+
+.nav .overlay ul{
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav .overlay ul li{
+  text-transform: uppercase;
+}
+
+.nav .overlay ul li a{
+  font-size: 2rem;
+  display: block;
+  transition: all 650ms;
+}
+
+.nav .overlay ul li a:hover,
+.nav .overlay u li a .active:hover{
+  color: var(--main-font-color);
 }
 /* --- Section --- */
