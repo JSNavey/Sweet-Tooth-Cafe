@@ -214,4 +214,52 @@ header{
 .nav .overlay u li a .active:hover{
   color: var(--main-font-color);
 }
+
+/* -- Header - Main text -- */
+
+/* set line-height to 0 in order to adjust the position away from the center easily */ 
+/* user-select prevents the text gets highlighted if the user click it. */
+.main-text{
+  line-height: 0;
+  margin: auto 0;
+  color: var(--main-white);
+  user-select: none;
+}
+
+.main-text h1{
+  font-family: var(--main-font-family);
+  color: var(--main-font-color);
+  font-size: 6rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+
+/* when adding letter spacing, the text will be move a bit to the left. So adding margin-right to -1 will reposition it. */
+.main-text h2{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-right: -4px;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.main-btn{
+  border: 2px solid var(--main-font-color);
+  font-size: 1.5rem;
+  padding: 2rem 2.5rem;
+  letter-spacing: 3px;
+  margin-right: -3px;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.main-btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.4);
+}
+
+.main-btn:active{
+  transform: translateY(0);
+  box-shadow: none;
+}
 /* --- Section --- */
