@@ -263,3 +263,14 @@ header{
   box-shadow: none;
 }
 /* --- Section --- */
+/* Our Story */
+.store{
+  width: 100%;
+  min-height: 30rem;
+  background: url("images/store.jpeg") center no-repeat;
+  background-size: cover;
+}
+
+/* Fresh Ingredients */
+
+
