@@ -272,5 +272,91 @@ header{
 }
 
 /* Fresh Ingredients */
+.fresh-ingredient{
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5),transparent), url("images/between.jpeg") center no-repeat;
+  background-size: cover;
+}
 
+/* Our Menu */
+.image-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
 
+.image-group img{
+  width: 100%;
+  height: 30rem;
+}
+
+/* Catering */
+.healthy-everyday{
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5),transparent), url("images/blood-orange-citrus-citrus-fruit-2067629.jpg") center no-repeat;
+  background-size: cover;
+}
+
+/* Contact Us */
+.contact-us form{
+  width: 100%;
+  min-width: 9rem;
+  margin-top: 5rem;
+}
+
+.input,
+.text-area{
+  width: 100%;
+  max-width: 100%;
+  margin: 5px 0;
+  padding: 5px 1rem;
+  border: 1px solid var(--main-font-color);
+  border-radius: 3px;
+  color: #878787;
+  font-size: 1.5rem;
+}
+
+.text-area{
+  height: 10rem;
+}
+
+.input::placeholder,
+.text-area::placeholder{
+  color: #878787;
+}
+
+.btn-submit{
+  width: 100%;
+  background-color: var(--main-font-color);
+  color: var(--main-white);
+  padding: 0.75rem 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-submit:hover{
+  background-color: #212121cb;
+  color: var(--main-white);
+  border: 1px solid #212121cb;
+}
+
+/* --- Footer --- */
+footer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  padding: 5rem 0;
+  font-size: 1.8rem;
+  background-color: var(--main-footer-bg-color);
+  color: var(--main-white);
+}
+
+footer h4{
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: var(--main-font-color);
+  margin-bottom: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
