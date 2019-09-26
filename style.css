@@ -100,7 +100,7 @@ header{
   display: flex;
   flex-direction: column;
   text-align: center;
-  position: relative;
+  /* position: relative; */
 }
 
 /* Header - Nav Toggle */
@@ -241,17 +241,17 @@ header{
   letter-spacing: 4px;
   margin-right: -4px;
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .main-btn{
-  border: 2px solid var(--main-font-color);
+  background-color: var(--main-font-color);
   font-size: 1.5rem;
   padding: 2rem 2.5rem;
   letter-spacing: 3px;
   margin-right: -3px;
   position: relative;
-  margin-top: 3rem;
+  margin: 3rem 0 20rem 0;
 }
 
 .main-btn:hover{
