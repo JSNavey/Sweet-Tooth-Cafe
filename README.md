@@ -1,6 +1,7 @@
 # Sweet-Tooth-Cafe
 
 ###Photo Credit###
-Landing Page by Brook Lark on Unsplash
+Cover Page by Brook Lark on Unsplash
+Fresh Daily by Jonathan Borba on Unsplash
 <br>
 

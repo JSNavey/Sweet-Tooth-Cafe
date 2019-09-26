@@ -70,6 +70,7 @@ a{
   font-size: 6.5rem;
   font-weight: 100;
   line-height: 1;
+  margin-bottom: 3rem;
 }
 
 .custom-font-secondary{
@@ -79,7 +80,6 @@ a{
   margin-right: -5px;
   color: var(--main-font-dark-gray);
   line-height: 1;
-  margin-bottom: 5rem;
 }
 
 .between-sec{
