@@ -275,7 +275,7 @@ header{
 /* Fresh Ingredients */
 .fresh-ingredient{
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5),transparent), url("images/between.jpeg") center no-repeat;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5),transparent), url("images/sweet-tooth-baked-fresh.jpg") center no-repeat;
   background-size: cover;
 }
 
