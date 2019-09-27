@@ -95,7 +95,7 @@ a{
 header{
   width: 100%;
   height: 100vh;
-  background:url("images/sweet-tooth-cafe.jpg") center no-repeat;
+  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5),transparent),url("images/sweet-tooth-cafe.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -241,7 +241,7 @@ header{
   letter-spacing: 4px;
   margin-right: -4px;
   font-size: 2rem;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .main-btn{
@@ -251,7 +251,7 @@ header{
   letter-spacing: 3px;
   margin-right: -3px;
   position: relative;
-  margin: 3rem 0 20rem 0;
+  margin-top: 3rem;
 }
 
 .main-btn:hover{
