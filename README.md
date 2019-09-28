@@ -1,4 +1,7 @@
 # Sweet-Tooth-Cafe
+https://sweet-tooth-cafe.netlify.com/
+
+HTML5, CSS3 and JQuery
 
 ###Photo Credit###
 Cover Page image from Pexel
